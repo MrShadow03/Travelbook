@@ -31,7 +31,7 @@ React has been designed for gradual adoption from the start, and **you can use a
 
 You can use React as a `<script>` tag from a [CDN](https://reactjs.org/docs/cdn-links.html), or as a `react` package on [npm](https://www.npmjs.com/package/react).
 
-# This project also uses Vite<a href="https://reactjs.org/">React</a>
+# This project also uses <a href="https://vitejs.dev/">Vite</a>
 
 <p align="center">
   <a href="https://vitejs.dev" target="_blank" rel="noopener noreferrer">
