@@ -6,6 +6,7 @@
 <li>cd into the directory and run the following commands to start the project on a dev server
   
     npm install
+and
     npm run dev
   
 </li>
