@@ -1,0 +1,80 @@
+html{
+  font-size: 10px;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'inter';
+}
+.container{
+  width: 47rem;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+.nav{
+  width: 100%;
+  text-align: center;
+  background: #F55A5A;
+}
+.nav__title{
+  font-weight: 300;
+  font-size: 14.4608px;
+  letter-spacing: -0.075em;
+  color: #FFFFFF;
+  padding-block: 1.5rem;
+}
+.card{
+  width: 100%;
+  display: flex;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+.card__image{
+  width: 12.5rem;
+  height: 16.8rem;
+  object-fit: cover;
+  border-radius: 1rem;
+}
+.card__country{
+  padding-top: 1rem;
+  font-size: 10.24px;
+  line-height: 12px;
+  letter-spacing: 0.17em;
+  color: #2B283A;
+  text-transform: uppercase;
+}
+.card__country::before{
+  content: "\1F30B";
+}
+.card__link{
+  font-size: 10.24px;
+  line-height: 12px;
+  text-decoration-line: underline;
+  color: #918E9B;
+  letter-spacing: 0;
+  text-transform: none;
+  padding-left: 1rem;
+}
+.card__location{
+  padding-top: .5rem;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 30px;
+  color: #2B283A;
+}
+.card__date{
+  padding-top: 2rem;
+  font-weight: 700;
+  font-size: 10.24px;
+  line-height: 12px;
+  color: #2B283A;
+}
+.card__desc{
+  padding-top: 1rem;
+  font-size: 10.24px;
+  line-height: 15px;
+  color: #2B283A;
+}
