@@ -4,10 +4,11 @@
 <ol>
 <li>Install <a href="https://nodejs.org/en/">Node.js</a></li>
 <li>cd into the directory and run the following commands to start the project on a dev server
-```jsx
-npm install
-npm run dev
-```
+  
+    npm install"
+  
+    npm run dev"
+  
 </li>
 </ol>
 
